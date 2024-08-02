@@ -8,21 +8,56 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Ski Resorts', link: '/skiresorts' },
+      { text: 'Gear', link: '/gear' },
+      { text: 'Tips', link: '/tips' },
+      { text: 'Contact', link: '/contact' },
     ],
 
-    sidebar: [
+    sidebar: {
+
+    '/skiresorts': [
       {
-        text: 'Examples',
+        text: 'Ski Resorts Near Ottawa',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Camp Fortune', link: '/skiresorts#camp-fortune' },
+          { text: 'Calabogie Peaks', link: '/skiresorts#calabogie-peaks' },
+          { text: 'Mont Tremblant', link: '/skiresorts#mont-tremblant' },
         ]
       }
     ],
 
+    '/gear': [
+      {
+        text: 'Gear',
+        items: [
+          { text: 'Snowboards', link: '/gear#snowboards' },
+          { text: 'Bindings', link: '/gear#bindings' }
+        ]
+      }
+    ],
+
+    '/tips': [
+      {
+        text: 'Tips',
+        items: [
+          { text: 'Beginner Tips', link: '/tips#beginner-tips' },
+          { text: 'Advance Tips', link: '/tips#advance-tips' }
+        ]
+      }
+    ],
+    '/contact': [
+      {
+        text: 'Contact',
+        items: [
+          { text: 'Contact Us', link: '/contact#contact-us' }
+        ]
+      }
+    ]
+  },
+
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://www.github.com/lau00077' }
     ]
   }
 })
