@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/mtm6407-static-site-lau00077/',
   title: "Ottawa Snowboarding",
   description: "Take adventures on the slopes",
   themeConfig: {
@@ -58,6 +59,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://www.github.com/lau00077' }
-    ]
+    ],
+
+    footer: 
+      {message: 'Made with ❤️ by Ottawa Snowboarding',
+      copyright: 'Copyright © 2024-present'
+      }
   }
 })

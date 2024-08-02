@@ -1,0 +1,1 @@
+import{_ as e,c as o,o as i,a2 as t}from"./chunks/framework.CZ_S9s-4.js";const _=JSON.parse('{"title":"Snowboarding Tips & Tricks","description":"","frontmatter":{},"headers":[],"relativePath":"tips.md","filePath":"tips.md"}'),s={name:"tips.md"},a=t("",6),r=[a];function n(l,c,d,p,h,m){return i(),o("div",null,r)}const g=e(s,[["render",n]]);export{_ as __pageData,g as default};
